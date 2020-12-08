@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  /* display: none; */
+}
+
+.show {
+  display: block;
+}
+    </style>
+</head>
+<body>
+
+        <button class="btn" data-filter="all"> Show all</button>
+        <button class="btn" data-filter="cars"> Cars</button>
+        <button class="btn" data-filter="animals"> Animals</button>
+        <button class="btn" data-filter="fruits"> Fruits</button>
+        <button class="btn" data-filter="colors" > Colors</button>
+ 
+        <div class="filterDiv all cars">BMW</div>
+        <div class="filterDiv all colors fruits">Orange</div>
+        <div class="filterDiv all cars">Volvo</div>
+        <div class="filterDiv all fruits">Lemon</div>
+        <div class="filterDiv all animals">Cow</div>
+  
+      <script src="sric.js"></script>
+</body>
+</html>
